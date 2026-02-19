@@ -1,0 +1,27 @@
+# Q47 Prime Quadruplet Catalog — Complete for n ≤ 2×10⁹
+# Q(n) = n^47 - (n-1)^47
+#
+# Each entry: 4 consecutive integers n, n+1, n+2, n+3
+# such that Q(m) is a probable prime for all m in {n, n+1, n+2, n+3}.
+#
+# Entry #1 (n=23,159,557) is a NEW DISCOVERY from this work,
+# recovered when the [10^6, 10^8] data gap was filled.
+#
+# Author: Ruqing Chen, GUT Geoservice Inc., Montreal, 2026
+#
+index,starting_n,digits_of_Qn,normalized_position
+1,23159557,341,0.023
+2,117309848,380,0.117
+3,136584738,385,0.137
+4,218787064,390,0.219
+5,411784485,400,0.412
+6,423600750,401,0.424
+7,523331634,405,0.523
+8,640399031,408,0.640
+9,987980498,415,0.988
+10,1163461515,420,1.163
+11,1370439187,423,1.370
+12,1643105964,426,1.643
+13,1691581855,427,1.692
+14,1975860550,429,1.976
+15,1996430175,430,1.996
